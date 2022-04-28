@@ -1,26 +1,18 @@
 {
-  "name": "react-metro",
-  "version": "0.0.864",
-  "description": "A tiny configurable wrapper for animating dom elements as they mount or unmount",
-  "keywords": [
-    "hoc",
-    "react-metro",
-    "react",
-    "animation"
-  ],
-  "homepage": "https://codesandbox.io/s/w0orz7j5p8",
-  "main": "index.js",
+  "name": "react-transition-group-react-router-demo",
+  "version": "1.0.0",
+  "description":
+    "This one was tough to figure out, so I'm happy to share, maybe it will help somebody",
+  "keywords": [],
+  "main": "src/index.js",
   "dependencies": {
-    "react": "16.5.2",
-    "react-addons-transition-group": "15.6.2",
-    "react-dom": "16.5.2",
-    "react-emoji-render": "0.4.2",
-    "react-metro": "1.9.2",
-    "react-transition-group-plus": "0.5.3"
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "2.3.1"
   },
-  "devDependencies": {
-    "react-scripts": "1.0.0"
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
