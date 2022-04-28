@@ -1,0 +1,31 @@
+.swirl-in-bck {
+	-webkit-animation: swirl-in-bck 0.65s ease-out both;
+	        animation: swirl-in-bck 0.65s ease-out both;
+          animation-delay: 0.8s;
+}
+
+ @-webkit-keyframes swirl-in-bck {
+    0% {
+      -webkit-transform: rotate(540deg) scale(5);
+              transform: rotate(540deg) scale(5);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0) scale(1);
+              transform: rotate(0) scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes swirl-in-bck {
+    0% {
+      -webkit-transform: rotate(540deg) scale(5);
+              transform: rotate(540deg) scale(5);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0) scale(1);
+              transform: rotate(0) scale(1);
+      opacity: 1;
+    }
+  }
+  
